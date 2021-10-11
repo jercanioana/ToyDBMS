@@ -1,0 +1,7 @@
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\bin\Debug\DBMS.exe.config
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\bin\Debug\DBMS.exe
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\bin\Debug\DBMS.pdb
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\obj\Debug\DBMS.csprojAssemblyReference.cache
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\obj\Debug\DBMS.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\obj\Debug\DBMS.exe
+C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\DBMS\obj\Debug\DBMS.pdb

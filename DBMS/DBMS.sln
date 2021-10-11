@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBMS", "DBMS\DBMS.csproj", "{B1A69E5D-7CC5-45C5-AE18-10676E2B3BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBMSServer", "DBMSServer\DBMSServer.csproj", "{2761E60E-93B0-4578-9DCC-590B08794B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{AC95EC88-0814-4017-94C6-524CB81DED6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A69E5D-7CC5-45C5-AE18-10676E2B3BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A69E5D-7CC5-45C5-AE18-10676E2B3BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A69E5D-7CC5-45C5-AE18-10676E2B3BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A69E5D-7CC5-45C5-AE18-10676E2B3BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2761E60E-93B0-4578-9DCC-590B08794B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2761E60E-93B0-4578-9DCC-590B08794B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2761E60E-93B0-4578-9DCC-590B08794B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2761E60E-93B0-4578-9DCC-590B08794B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC95EC88-0814-4017-94C6-524CB81DED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC95EC88-0814-4017-94C6-524CB81DED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC95EC88-0814-4017-94C6-524CB81DED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC95EC88-0814-4017-94C6-524CB81DED6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4C2FE7-1BCA-4013-80D7-576336201BAE}
+	EndGlobalSection
+EndGlobal
