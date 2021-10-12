@@ -5,3 +5,10 @@ C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\Utils\obj\Debug\Utils.csprojAssembl
 C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
 C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\Utils\obj\Debug\Utils.exe
 C:\Users\Vlad\Desktop\GITHUB\DBMSToyApp\DBMS\Utils\obj\Debug\Utils.pdb
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\bin\Debug\Utils.exe.config
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\bin\Debug\Utils.exe
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\bin\Debug\Utils.pdb
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\obj\Debug\Utils.exe
+C:\Users\ioana\Desktop\Proiecte\ToyDBMS\DBMS\Utils\obj\Debug\Utils.pdb
