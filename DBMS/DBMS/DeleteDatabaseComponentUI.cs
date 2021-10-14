@@ -7,10 +7,10 @@ using Utils;
 
 namespace DBMS
 {
-    class CreateNewDatabaseComponentUI
+    class DeleteDatabaseComponentUI
     {
         private Client tcpClient;
-        public CreateNewDatabaseComponentUI(Client client)
+        public DeleteDatabaseComponentUI(Client client)
         {
             tcpClient = client;
             buildComponent();
@@ -18,10 +18,10 @@ namespace DBMS
 
         private void buildComponent()
         {
-            
+            string databaseName = "";
             Console.WriteLine("Insert the name of the database: ");
-            string databaseName = Console.ReadLine();
-            this.DisplayQueryResult(Commands.CREATE_DATABASE, databaseName);
+            databaseName = Console.ReadLine();
+            this.DisplayQueryResult(Commands.DROP_DATABASE, databaseName);
 
         }
 
@@ -33,17 +33,16 @@ namespace DBMS
             if (databaseName == "")
             {
                 Console.WriteLine("Database name cannot be empty!");
-               
-                
+
+
             }
             else
             {
                 tcpClient.Write(action + ";" + databaseName);
                 Console.WriteLine(tcpClient.ReadFromServer());
-               
+
             }
-           
+
         }
     }
 }
-

@@ -11,15 +11,15 @@ namespace Utils
         public string Name { get; }
         public bool IsPrimaryKey { get; }
         public string Type { get; }
-        public int Length { get; }
+        //public int Length { get; }
         public bool AllowsNulls { get; }
 
-        public TableColumn(string _name, bool _isPrimaryKey, string _type, int _length, bool _allowsNulls)
+        public TableColumn(string _name, bool _isPrimaryKey, string _type, bool _allowsNulls)
         {
             Name = _name;
             IsPrimaryKey = _isPrimaryKey;
             Type = _type;
-            Length = _length;
+            //Length = _length;
             AllowsNulls = _allowsNulls;
         }
     }

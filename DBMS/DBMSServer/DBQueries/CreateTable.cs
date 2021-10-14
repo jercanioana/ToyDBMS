@@ -35,12 +35,12 @@ namespace DBMSServer.DBQueries
             {
                 var columnAttributes = tableAttributes[idx].Split('|');
                 var columnName = columnAttributes[0];
-                var columnPK = bool.Parse(columnAttributes[1]);
-                var columnType = columnAttributes[2];
-                int.TryParse(columnAttributes[3], out var columnLength);
-                var columnUnique = bool.Parse(columnAttributes[4]);
-                var columnAllowNull = bool.Parse(columnAttributes[5]);
-                Columns.Add(new TableColumn(columnName, columnPK, columnType, columnLength, columnAllowNull));
+                var columnPK = bool.Parse(columnAttributes[2]);
+                var columnType = columnAttributes[1];
+               // int.TryParse(columnAttributes[3], out var columnLength);
+                //var columnUnique = bool.Parse(columnAttributes[4]);
+                var columnAllowNull = bool.Parse(columnAttributes[3]);
+                Columns.Add(new TableColumn(columnName, columnPK, columnType, columnAllowNull));
             }
 
             MongoDB = new MongoDBAcess(DatabaseName);
@@ -109,14 +109,14 @@ namespace DBMSServer.DBQueries
                                             new XAttribute("type", tableColumn.Type),
                                             new XAttribute("columnName", tableColumn.Name));
 
-                if (tableColumn.Length != 0)
+               /* if (tableColumn.Length != 0)
                 {
                     columnNode.SetAttributeValue("length", tableColumn.Length);
                 }
 
                 structureNode.Add(columnNode);
                 rowLength += tableColumn.Length;
-
+                */
                 if (tableColumn.IsPrimaryKey)
                 {
                     XElement pkColumnNode = new XElement("PrimaryKeyColumn", tableColumn.Name);
@@ -192,7 +192,7 @@ namespace DBMSServer.DBQueries
                     var columnLength = column.Attribute("length").Value;
                     var columnType = column.Attribute("type").Value;
                     var columnAllowsNulls = column.Attribute("allowsNulls").Value;
-                    primaryKeysObjects.Add(new TableColumn(columnName, false, columnType, int.Parse(columnLength),  bool.Parse(columnAllowsNulls)));
+                    primaryKeysObjects.Add(new TableColumn(columnName, false, columnType, bool.Parse(columnAllowsNulls)));
                 }
             }
             return primaryKeysObjects;
