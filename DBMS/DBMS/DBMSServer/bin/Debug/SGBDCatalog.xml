@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Databases>
+  <Database databaseName="test" />
+  <Database databaseName="test3">
+    <Table rowLength="0" fileName="table3" tableName="table3">
+      <Structure>
+        <Column allowsNulls="false" type="int" columnName="id" />
+        <Column allowsNulls="true" type="varchar" columnName="name" />
+      </Structure>
+      <PrimaryKey>
+        <PrimaryKeyColumn>id</PrimaryKeyColumn>
+      </PrimaryKey>
+      <IndexFiles />
+    </Table>
+  </Database>
+  <Database databaseName="University">
+    <Table rowLength="0" fileName="Student" tableName="Student">
+      <Structure>
+        <Column allowsNulls="false" type="int" columnName="id" />
+        <Column allowsNulls="false" type="varchar" columnName="name" />
+        <Column allowsNulls="true" type="int" columnName="group" />
+      </Structure>
+      <PrimaryKey>
+        <PrimaryKeyColumn>id</PrimaryKeyColumn>
+      </PrimaryKey>
+      <IndexFiles />
+    </Table>
+  </Database>
+  <Database databaseName="Newdatabase">
+    <Table rowLength="0" fileName="table1" tableName="table1">
+      <Structure>
+        <Column allowsNulls="false" type="int" columnName="id" />
+      </Structure>
+      <PrimaryKey>
+        <PrimaryKeyColumn>id</PrimaryKeyColumn>
+      </PrimaryKey>
+      <IndexFiles />
+    </Table>
+  </Database>
+  <Database databaseName="Formula1">
+    <Table rowLength="0" fileName="Car" tableName="Car">
+      <Structure>
+        <Column allowsNulls="false" type="int" columnName="id" />
+      </Structure>
+      <PrimaryKey>
+        <PrimaryKeyColumn>id</PrimaryKeyColumn>
+      </PrimaryKey>
+      <IndexFiles />
+    </Table>
+  </Database>
+</Databases>
